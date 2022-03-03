@@ -77,7 +77,7 @@ main{
 .title{
     font-weight: 300;
     color:#03d453;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
 }
 #search_order{
     border: 1px solid #e0e0e0;
@@ -98,4 +98,71 @@ main{
 }
 .tracking__inner input[type=submit]:hover{
     background-color:#03d453;
+}
+.payment__form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
+    margin: 50px auto;
+    border-radius: 10px;
+    box-shadow: 0 15px 15px rgb(0 0 0 / 10%);
+    background-color: #fff;
+    
+}
+.payment__block{
+    width: 1200px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+.choice{
+    width: 70%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 15px 15px rgb(0 0 0 / 10%);
+    padding: 20px;
+}
+.total{
+    width: 30%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 15px 15px rgb(0 0 0 / 10%);
+    margin-left: 20px;
+    padding: 20px;
+    
+}
+.data-form{
+    margin: 20px;
+    padding: 50px 0;
+}
+.payment_choice{
+    background-color: #f6f7f9;
+    margin: 40px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.payment_choice input[type=radio]{
+    margin:0px 5px 0 5px;
+}
+.data-form input{
+    width: 300px;
+    
+}
+.btnform{
+    background-color: #e0e0e0;
+    color: #fff;
+    border: none;
+    padding: 8px 20px;
+}
+.activebtn{
+    background-color:#00a942;
+}
+.activebtn:hover{
+    background-color:#03d453;
+}
+.data-form input::placeholder{
+    font-size: 28px;
+    color: #e0e0e0; 
 }

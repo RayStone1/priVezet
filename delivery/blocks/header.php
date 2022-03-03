@@ -26,6 +26,7 @@
                         <li><a href="tracking.php">Отслеживание</a></li>
                         <li><a href="payment.php">Рассчитать</a></li>
                         <li><a href="">Тарифы</a></li>
+                        <li><a href="">О нас</a></li>
 
                     </ul>
                 </div>
